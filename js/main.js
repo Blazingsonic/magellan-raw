@@ -102,9 +102,10 @@ $(function() {
 
 $(document).ready(function() {
 	$('.js-slick').slick({
-    autoplay: true,
+    autoplay: false,
     speed: 1000,
-    dots: true
+    dots: true,
+    arrows: false
   });
 });
 
