@@ -102,7 +102,7 @@ $(function() {
 
 $(document).ready(function() {
 	$('.js-slick').slick({
-    autoplay: false,
+    autoplay: true,
     speed: 1000,
     dots: true
   });
