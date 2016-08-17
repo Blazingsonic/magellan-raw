@@ -9,3 +9,4 @@ export default function(gulp, plugins, args, config, taskTarget, browserSync) {
       .pipe(pages());
   });
 }
+
