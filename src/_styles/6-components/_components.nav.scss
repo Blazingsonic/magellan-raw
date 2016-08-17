@@ -1,0 +1,105 @@
+
+@import "../1-settings/_settings.colors.scss";
+
+.c-logo {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	position: relative;
+	z-index: 99;
+	font-family: 'Playfair Display', Helvetica, Arial, serif;
+	letter-spacing: 0.4rem;
+	color: $white;
+}
+
+	.c-logo__image {
+		width: 3.55rem;
+		margin-right: 0.4rem;
+		margin-bottom: vr(1/4);
+
+		// @include mappy-bp(medium) {
+		// 	width: 3.5rem;
+		// }
+
+		// @include mappy-bp(wide) {
+		// 	width: 4.5rem;
+		// }
+	}
+
+.c-main-nav {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  margin-top: vr(1/2);
+  padding: 0;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+
+  @include mappy-bp(0 1220px) {
+    display: none;
+  }
+}
+
+	.c-main-nav__item {
+    	@include typi($sans-sm-map);
+    	letter-spacing: 0.4rem;
+      margin-bottom: 0;
+      margin-right: 2.5rem;
+
+        &:last-child {
+        	margin-right: 0;
+        }
+    }
+
+.c-nav-right {
+    margin-top: vr(1/2);
+}
+
+	.c-nav-right__menu {
+		position: relative;
+		width: 1.2rem;
+		height: 21px;
+		cursor: pointer;
+
+		&:hover span {
+			background-color: $grey;
+		}
+
+		span {
+		    background-color: white;
+		    height: 2px;
+		    width: 1.2rem;
+		    position: absolute;
+		    transition:all 0.5s ease;
+
+		    &:first-child {
+		    	top: 0px;
+		    }
+		    &:nth-child(2) {
+		    	top: 8px;
+		    }
+		    &:nth-child(3) {
+		    	top: 16px;
+		    }
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+
+.c-facts {
+  max-width: 58rem;
+}
+
+.c-facts__item {
+  margin-bottom: vr(2);
+  
+  @include mappy-bp(large) {
+    margin-bottom: 0;
+  }
+}

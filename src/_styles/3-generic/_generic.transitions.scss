@@ -1,0 +1,10 @@
+
+// General Transitions
+li, a, svg {
+	transition: all 200ms ease-in-out;
+}
+
+// Component Transitions
+.c-sub-service, .c-display-service {
+	transition: all 200ms ease-in-out;
+}

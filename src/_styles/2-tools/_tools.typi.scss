@@ -1,0 +1,70 @@
+
+@import '../../node_modules/typi/scss/typi';
+
+$typi-breakpoint: mappy-breakpoints;
+
+/* Base Map -------------------- */
+
+$typi: (
+  null: (16px, 1.5),
+  medium: 17px,
+  large: 18px,
+  mega: 20px
+);
+
+/* Element Maps -------------------- */
+
+// H1 Map: OCULUS / EXPERIENCE TRAVEL
+$h1-map: (
+  null: (ms(1), vr(1)),
+  small: (ms(2), vr(1.25)),
+  medium: (ms(3), vr(1.5)),
+  wide: (ms(4), vr(2))
+);
+
+// H2 Map: IMPRESSIONEN
+$h2-map: (
+  null: (ms(2), vr(1.25)),
+  medium: (ms(3), vr(2.5)),
+  wide: (ms(4), vr(2))
+);
+
+// H3 Map: TRUE STORY
+$h3-map: (
+  null: (ms(0), vr(1))
+);
+
+// H4 Map: TANDEM NETWORKS
+$h4-map: (
+	null: (ms(1), vr(1))
+);
+
+// Default Text Map: Ein normaler Text
+$default-map: (
+  null: (ms(-1), vr(0.86))
+);
+
+/* Class Maps -------------------- */
+
+// Serif Small Map: INSTAGRAM
+$serif-sm-map: (
+  null: (ms(-2), vr(0.75))
+);
+
+// Sans Small Map: Unser Ziel
+$sans-sm-map: (
+  null: (ms(-1), vr(1))
+);
+
+// Category Map: USER EXPERIENCE DESIGN
+// $category-map: (
+//   null: (ms(-2), vr(1))
+// );
+
+
+
+
+
+
+
+

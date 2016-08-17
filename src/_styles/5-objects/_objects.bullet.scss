@@ -1,0 +1,35 @@
+
+@import "../1-settings/_settings.colors.scss";
+
+// umschreiben in stärkeren CSS-Befehl
+.o-bullet,
+.o-bullet--skills,
+.o-bullet--impr {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: vr(2.5);
+}
+
+.o-bullet--skills {
+	max-width: 44rem;
+}
+.o-bullet--impr {
+	max-width: 35rem;
+}
+
+	.o-bullet__item {
+		letter-spacing: 0.3rem; // sollte das beibehalten werden?
+		cursor: pointer;
+		
+		&.is-active {
+			color: $black;
+		}
+		
+		&:last-child {
+			margin-right: 0;
+		}
+
+		&:hover {
+			color: $black;
+		}
+	}

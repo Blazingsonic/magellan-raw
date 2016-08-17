@@ -1,0 +1,18 @@
+
+@import "../1-settings/_settings.colors.scss";
+
+.e-footer {
+  padding: vr(2) 0 vr(1);
+}
+
+  .e-footer__item {
+    max-width: 62rem;
+  }
+
+  .e-footer__adress {
+    margin-bottom: vr(1);
+
+    @include mappy-bp(medium) {
+      margin-bottom: 0;
+    }
+  }

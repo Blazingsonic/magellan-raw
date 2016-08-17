@@ -1,0 +1,27 @@
+<svg id="seo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 487.21 370.55">
+  <title>seo</title>
+  <g id="seo-1" opacity="0.8">
+    <rect x="89.21" y="75.48" width="144.1" height="20.59" fill="#3c3c3c"/>
+  </g>
+  <g id="seo-2" opacity="0.8">
+    <rect x="89.21" y="137.24" width="226.45" height="20.59" fill="#3c3c3c"/>
+  </g>
+  <g id="seo-3" opacity="0.8">
+    <rect x="89.21" y="219.59" width="144.1" height="20.59" fill="#3c3c3c"/>
+  </g>
+  <g id="seo-4" opacity="0.8">
+    <rect x="89.21" y="281.34" width="226.45" height="20.59" fill="#3c3c3c"/>
+  </g>
+  <g id="seo-bottom">
+    <rect y="349.97" width="487.21" height="20.59" fill="#3c3c3c"/>
+  </g>
+  <g id="seo-top">
+    <rect width="487.21" height="20.59" fill="#3c3c3c"/>
+  </g>
+  <g id="seo-left">
+    <rect width="20.59" height="370.55" fill="#3c3c3c"/>
+  </g>
+  <g id="seo-right">
+    <rect x="466.62" width="20.59" height="370.55" fill="#3c3c3c"/>
+  </g>
+</svg>

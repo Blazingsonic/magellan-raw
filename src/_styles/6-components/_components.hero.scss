@@ -1,0 +1,33 @@
+
+@import "../1-settings/_settings.colors.scss";
+
+.c-hero {
+	position: absolute;
+  width: 90%;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  z-index: 99;
+	
+	& > p {
+		font-size: 1.125rem;
+    line-height: vr(1);
+		max-width: 46rem; // make general max-width classes or handle max-width over html tags?
+		margin-bottom: vr(3);
+	}
+}
+
+	.c-hero__module {
+		max-width: 80rem;
+		margin: 0 auto;
+		padding-top: vr(1);
+		padding-bottom: vr(1);
+		
+		@include mappy-bp(medium) {
+			padding-top: vr(2);
+			padding-bottom: vr(2);
+		}
+		@include mappy-bp(large) {
+			padding-bottom: vr(3);
+		}
+	}

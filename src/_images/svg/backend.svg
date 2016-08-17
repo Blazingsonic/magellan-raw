@@ -1,0 +1,18 @@
+<svg id="backend" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <title>backend</title>
+  <g id="backend-middle" opacity="0.8">
+    <rect x="158.85" y="138.89" width="194.45" height="27.78" fill="#3c3c3c"/>
+  </g>
+  <g id="backend-left">
+    <rect width="27.78" height="500" fill="#3c3c3c"/>
+  </g>
+  <g id="backend-right">
+    <rect x="472.22" width="27.78" height="500" fill="#3c3c3c"/>
+  </g>
+  <g id="backend-top">
+    <rect width="500" height="27.78" fill="#3c3c3c"/>
+  </g>
+  <g id="backend-bottom">
+    <rect y="472.22" width="500" height="27.78" fill="#3c3c3c"/>
+  </g>
+</svg>

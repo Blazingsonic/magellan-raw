@@ -1,0 +1,106 @@
+
+@import "../1-settings/_settings.colors.scss";
+
+/* Project Previews -------------------- */
+
+.c-card-proj {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 30rem;
+  margin-bottom: 2rem;
+
+  &:last-child {
+    // margin: 0;
+  }
+
+  @include mappy-bp(1104px) { // unique tweakpoint
+    // margin-right: 2rem;
+
+    &:nth-child(2n) {
+      // margin: 0;
+    }
+  }
+}
+
+  .c-card-proj__left {
+    width: 100%;
+    padding-left: vr(1);
+    padding-top: vr(1);
+    padding-right: vr(1);
+
+    @include mappy-bp(small) {
+      width: 60%;
+    }
+  }
+
+  .c-card-proj__right {
+    display:none;
+    width: 40%;
+
+    @include mappy-bp(small) {
+      display: block
+    }
+  }
+
+.tandem {
+
+  @include mappy-bp(small) {
+    background: url($path-img + '/teaser-tandem.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+/* Profiles -------------------- */
+
+.c-card-prof {
+  max-width: 19.5rem;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 2rem;
+  padding: vr(1.25);
+  backface-visibility: hidden;
+
+  @include mappy-bp(500px) {
+    margin-left: vr(2);
+    margin-right: vr(2);
+  }
+}
+
+  .c-card-prof__img {
+    width: 5.5rem;
+    height: 5.5rem;
+    margin-bottom: vr(1);
+    border-radius: 50%;
+    background: url($path-img + '/sebastian.jpg');
+    background-size: 309px;
+    background-position: 134px 205px;
+  }
+
+/* Blog Previews -------------------- */
+
+.c-card-blog {
+  margin-bottom: 2rem;
+}
+
+  div[class^=c-card-blog__img] {
+    width: 100%;
+    height: 10rem;
+  }
+  .c-card-blog__img--magellan {
+    background: url($path-img + '/speed.jpg');
+    background-size: cover;
+  }
+
+  .c-card-blog__body {
+    padding: vr(1/2) vr(1.5) vr(1);
+  }
+
+  .c-card-blog__bottom {
+
+  }
+
+
+
+
+

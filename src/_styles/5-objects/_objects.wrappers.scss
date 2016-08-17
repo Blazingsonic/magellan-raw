@@ -1,0 +1,34 @@
+
+@import "../1-settings/_settings.colors.scss";
+
+.o-wrapper,
+.o-bg-wrapper {
+	position: relative;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0 vr(1);
+
+  @include mappy-bp(medium) {
+		padding: 0 vr(2);
+	}
+	@include mappy-bp(large) {
+		padding: 0 vr(3);
+	}
+	@include mappy-bp(wide) {
+		//padding: 0 vr(4);
+	}
+}
+
+	.o-wrapper__module {
+		max-width: 80rem;
+		margin: 0 auto;
+		padding: vr(2) 0;
+		
+		@include mappy-bp(medium) {
+			padding: vr(2) 0;
+		}
+		@include mappy-bp(large) {
+			padding: vr(3) 0;
+		}
+	}
+

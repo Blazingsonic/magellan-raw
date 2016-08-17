@@ -1,0 +1,27 @@
+<svg id="performance" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 388.77 446.67">
+  <title>performance</title>
+  <g id="perf-1" opacity="0.8">
+    <rect x="83.49" y="314.32" width="24.82" height="132.35" fill="#3c3c3c"/>
+  </g>
+  <g id="perf-2" opacity="0.8">
+    <rect x="149.66" y="231.61" width="24.82" height="206.79" fill="#3c3c3c"/>
+  </g>
+  <g id="perf-3" opacity="0.8">
+    <rect x="215.58" y="347.41" width="24.82" height="90.99" fill="#3c3c3c"/>
+  </g>
+  <g id="perf-4" opacity="0.8">
+    <rect x="281.75" y="272.96" width="24.82" height="173.7" fill="#3c3c3c"/>
+  </g>
+  <g id="perf-bottom">
+    <rect y="421.85" width="388.77" height="24.82" fill="#3c3c3c"/>
+  </g>
+  <g id="perf-top">
+    <rect width="388.77" height="24.82" fill="#3c3c3c"/>
+  </g>
+  <g id="perf-left">
+    <rect width="24.82" height="446.67" fill="#3c3c3c"/>
+  </g>
+  <g id="perf-right">
+    <rect x="363.95" width="24.82" height="446.67" fill="#3c3c3c"/>
+  </g>
+</svg>
