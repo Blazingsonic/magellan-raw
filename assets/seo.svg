@@ -4,47 +4,31 @@
 	 width="487.2px" height="370.6px" viewBox="0 0 487.2 370.6" style="enable-background:new 0 0 487.2 370.6;" xml:space="preserve"
 	>
 <style type="text/css">
-	.st0{opacity:0.8;}
-	.st1{fill:#3C3C3C;}
+	.st0{fill:#3C3C3C;}
+	.st1{opacity:0.8;fill:none;stroke:#3C3C3C;stroke-width:20;stroke-miterlimit:10;}
 </style>
-<g id="seo-1" class="st0">
-	<g>
-		<rect x="89.2" y="75.5" class="st1" width="144.1" height="20.6"/>
-	</g>
-</g>
-<g id="seo-2" class="st0">
-	<g>
-		<rect x="89.2" y="137.2" class="st1" width="226.4" height="20.6"/>
-	</g>
-</g>
-<g id="seo-3" class="st0">
-	<g>
-		<rect x="89.2" y="219.6" class="st1" width="144.1" height="20.6"/>
-	</g>
-</g>
-<g id="seo-4" class="st0">
-	<g>
-		<rect x="89.2" y="281.3" class="st1" width="226.4" height="20.6"/>
-	</g>
-</g>
 <g id="seo-bottom">
 	<g>
-		<rect y="350" class="st1" width="487.2" height="20.6"/>
+		<rect y="350" class="st0" width="487.2" height="20.6"/>
 	</g>
 </g>
 <g id="seo-top">
 	<g>
-		<rect y="0" class="st1" width="487.2" height="20.6"/>
+		<rect y="0" class="st0" width="487.2" height="20.6"/>
 	</g>
 </g>
 <g id="seo-left">
 	<g>
-		<rect y="0" class="st1" width="20.6" height="370.6"/>
+		<rect y="0" class="st0" width="20.6" height="370.6"/>
 	</g>
 </g>
 <g id="seo-right">
 	<g>
-		<rect x="466.6" y="0" class="st1" width="20.6" height="370.6"/>
+		<rect x="466.6" y="0" class="st0" width="20.6" height="370.6"/>
 	</g>
 </g>
+<path id="seo-4" class="st1" d="M89.2,291.6h226.4"/>
+<path id="seo-3" class="st1" d="M89.2,229.9h144.1"/>
+<path id="seo-2" class="st1" d="M89.2,147.5h226.4"/>
+<path id="seo-1" class="st1" d="M89.2,85.8h144.1"/>
 </svg>

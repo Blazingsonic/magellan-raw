@@ -3,6 +3,7 @@ import $ from 'jquery';
 import { TweenMax, TimelineMax } from 'gsap';
 import slickSlider from 'slick-carousel';
 // import pushy from './pushy.min';
+import { lineAnimationSet, lineAnimation } from './components/line-animation';
 
 // ==========================================================================
 // Variables
@@ -123,18 +124,54 @@ $(document).ready(function() {
 
 // Vars
 let moduleSkillsHeight = $('#skills').height();
-let moduleSkillsOffset = $('#skills').offset().top;
+let moduleSkillsOffset = $('#skills').offset().top + 100;
 let skillsScroll = false;
 let $skillsOverview = $('.c-show-skills__figure');
 
+let backendMiddle = document.querySelector('#backend-middle');
+let frontendStand = document.querySelector('#frontend-stand');
+let perf1 = document.querySelector('#perf-1');
+let perf2 = document.querySelector('#perf-2');
+let perf3 = document.querySelector('#perf-3');
+let perf4 = document.querySelector('#perf-4');
+let seo1 = document.querySelector('#seo-1');
+let seo2 = document.querySelector('#seo-2');
+let seo3 = document.querySelector('#seo-3');
+let seo4 = document.querySelector('#seo-4');
+
+lineAnimationSet(backendMiddle);
+lineAnimationSet(frontendStand);
+lineAnimationSet(perf1);
+lineAnimationSet(perf2);
+lineAnimationSet(perf3);
+lineAnimationSet(perf4);
+lineAnimationSet(seo1);
+lineAnimationSet(seo2);
+lineAnimationSet(seo3);
+lineAnimationSet(seo4);
+
 // Set default for position of skills overview
-TweenMax.set($skillsOverview, {x: '-=50', autoAlpha: 0});
+// TweenMax.set($skillsOverview, {x: '-=50', autoAlpha: 0});
 
 // Animate when user scrolls to a certain point
 $(window).scroll(function (event) {
 	let scroll = $(window).scrollTop();
 	if (scroll > moduleSkillsOffset && !skillsScroll) {
-		TweenMax.staggerTo($skillsOverview, 1,  {x: '0', autoAlpha: 1}, 0.25);
+
+    // TweenMax.staggerTo($skillsOverview, 1,  {x: '0', autoAlpha: 1}, 0.25);
+
+    console.log('animating line');
+    lineAnimation(backendMiddle);
+    lineAnimation(frontendStand);
+    lineAnimation(perf1);
+    lineAnimation(perf2);
+    lineAnimation(perf3);
+    lineAnimation(perf4);
+    lineAnimation(seo1);
+    lineAnimation(seo2);
+    lineAnimation(seo3);
+    lineAnimation(seo4);
+
 		skillsScroll = true;
 	}
 });

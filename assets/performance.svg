@@ -4,47 +4,31 @@
 	 y="0px" width="388.8px" height="446.7px" viewBox="0 0 388.8 446.7" style="enable-background:new 0 0 388.8 446.7;"
 	 xml:space="preserve">
 <style type="text/css">
-	.st0{opacity:0.8;}
-	.st1{fill:#3C3C3C;}
+	.st0{fill:#3C3C3C;}
+	.st1{opacity:0.8;fill:none;stroke:#3C3C3C;stroke-width:25;stroke-miterlimit:10;}
 </style>
-<g id="perf-1" class="st0">
-	<g>
-		<rect x="83.5" y="314.3" class="st1" width="24.8" height="132.3"/>
-	</g>
-</g>
-<g id="perf-2" class="st0">
-	<g>
-		<rect x="149.7" y="231.6" class="st1" width="24.8" height="206.8"/>
-	</g>
-</g>
-<g id="perf-3" class="st0">
-	<g>
-		<rect x="215.6" y="347.4" class="st1" width="24.8" height="91"/>
-	</g>
-</g>
-<g id="perf-4" class="st0">
-	<g>
-		<rect x="281.8" y="273" class="st1" width="24.8" height="173.7"/>
-	</g>
-</g>
 <g id="perf-bottom">
 	<g>
-		<rect y="421.9" class="st1" width="388.8" height="24.8"/>
+		<rect y="421.9" class="st0" width="388.8" height="24.8"/>
 	</g>
 </g>
 <g id="perf-top">
 	<g>
-		<rect y="0" class="st1" width="388.8" height="24.8"/>
+		<rect y="0" class="st0" width="388.8" height="24.8"/>
 	</g>
 </g>
 <g id="perf-left">
 	<g>
-		<rect y="0" class="st1" width="24.8" height="446.7"/>
+		<rect y="0" class="st0" width="24.8" height="446.7"/>
 	</g>
 </g>
 <g id="perf-right">
 	<g>
-		<rect x="364" y="0" class="st1" width="24.8" height="446.7"/>
+		<rect x="364" y="0" class="st0" width="24.8" height="446.7"/>
 	</g>
 </g>
+<path id="perf-1" class="st1" d="M95.9,446.6V314.3"/>
+<path id="perf-2" class="st1" d="M162,446.6v-215"/>
+<path id="perf-3" class="st1" d="M228,446.6v-99.2"/>
+<path id="perf-4" class="st1" d="M294.2,432.5V273"/>
 </svg>

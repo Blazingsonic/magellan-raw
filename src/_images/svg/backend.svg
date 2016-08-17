@@ -1,18 +1,8 @@
 <svg id="backend" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
   <title>backend</title>
-  <g id="backend-middle" opacity="0.8">
-    <rect x="158.85" y="138.89" width="194.45" height="27.78" fill="#3c3c3c"/>
-  </g>
-  <g id="backend-left">
-    <rect width="27.78" height="500" fill="#3c3c3c"/>
-  </g>
-  <g id="backend-right">
-    <rect x="472.22" width="27.78" height="500" fill="#3c3c3c"/>
-  </g>
-  <g id="backend-top">
-    <rect width="500" height="27.78" fill="#3c3c3c"/>
-  </g>
-  <g id="backend-bottom">
-    <rect y="472.22" width="500" height="27.78" fill="#3c3c3c"/>
-  </g>
+  <rect id="backend-left" width="27.8" height="500" fill="#3c3c3c"/>
+  <rect id="backend-right" x="472.2" width="27.8" height="500" fill="#3c3c3c"/>
+  <rect id="backend-top" width="500" height="27.8" fill="#3c3c3c"/>
+  <rect id="backend-bottom" y="472.2" width="500" height="27.8" fill="#3c3c3c"/>
+  <path id="backend-middle" d="M158.9,152.8H353.3" transform="translate(0 0)" fill="none" stroke="#3c3c3c" stroke-miterlimit="10" stroke-width="30" opacity="0.8"/>
 </svg>

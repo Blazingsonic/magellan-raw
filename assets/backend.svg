@@ -3,32 +3,12 @@
 <svg version="1.1" id="backend" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="500px" height="500px" viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
 <style type="text/css">
-	.st0{opacity:0.8;}
-	.st1{fill:#3C3C3C;}
+	.st0{fill:#3C3C3C;}
+	.st1{opacity:0.8;fill:none;stroke:#3C3C3C;stroke-width:30;stroke-miterlimit:10;}
 </style>
-<g id="backend-middle" class="st0">
-	<g>
-		<rect x="158.9" y="138.9" class="st1" width="194.4" height="27.8"/>
-	</g>
-</g>
-<g id="backend-left">
-	<g>
-		<rect y="0" class="st1" width="27.8" height="500"/>
-	</g>
-</g>
-<g id="backend-right">
-	<g>
-		<rect x="472.2" y="0" class="st1" width="27.8" height="500"/>
-	</g>
-</g>
-<g id="backend-top">
-	<g>
-		<rect y="0" class="st1" width="500" height="27.8"/>
-	</g>
-</g>
-<g id="backend-bottom">
-	<g>
-		<rect y="472.2" class="st1" width="500" height="27.8"/>
-	</g>
-</g>
+<rect id="backend-left" y="0" class="st0" width="27.8" height="500"/>
+<rect id="backend-right" x="472.2" y="0" class="st0" width="27.8" height="500"/>
+<rect id="backend-top" y="0" class="st0" width="500" height="27.8"/>
+<rect id="backend-bottom" y="472.2" class="st0" width="500" height="27.8"/>
+<path id="backend-middle_1_" class="st1" d="M158.9,152.8h194.4"/>
 </svg>
