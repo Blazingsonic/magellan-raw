@@ -22,11 +22,22 @@
   width: 2rem;
   height: 1.2rem;
   margin-right: 0.5rem;
+  cursor: pointer;
 }
+
+  #search-stick {
+    fill: #fff;
+  }
 
 .i-menu {
   width: 2rem;
   height: 1rem;
+  cursor: pointer;
+  fill: $white;
+
+  &:hover {
+    fill: $grey;
+  }
 }
 
 /* Service Icons -------------------- */
@@ -72,9 +83,16 @@
     fill: $black;
 }
 
+.i-cloud {
+  width: 2rem;
+  height: 2rem;
+}
+
 /* Contact Icons -------------------- */
 
-.i-email {
+.i-email,
+.i-form,
+.i-phone {
     width: 4.5rem;
     height: 4.5rem;
     margin-bottom: vr(1/4);
@@ -84,13 +102,42 @@
     // }
 }
 
+// make general rule for different groups of icons?
+.i-instagram,
+.i-dribbble,
+.i-bulb,
+.i-pen {
+  display: none;
+
+  @include mappy-bp(small) {
+    display: initial;
+  }
+}
+
 .i-instagram {
     width: 1.2rem;
     height: 1.2rem;
-    margin-right: vr(1/2);
 }
 
-.o-ref a:hover .i-instagram {
+.i-dribbble {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.i-bulb {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.i-pen {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.o-ref a:hover .i-instagram,
+.o-ref a:hover .i-dribbble,
+.o-ref a:hover .i-bulb,
+.o-ref a:hover .i-pen {
     fill: $grey-light;
 }
 
@@ -111,8 +158,8 @@
 
   .i-dot--small {
     display: none;
-    width: 0.2rem;
-    height: 0.2rem;
+    width: 0.5rem;
+    height: 0.23rem;
     margin: 0 vr(1.5);
 
     @include mappy-bp(835px) {

@@ -116,7 +116,7 @@
       <!-- Begin Skills -->
       <div id="skills" class="o-wrapper">
 
-        <article class="o-wrapper__module u-text-center">
+        <article class="o-wrapper__module u-txt-center">
           <h2>Kompetenzen</h2>
 
           <!-- Skills Bullet -->
@@ -171,7 +171,7 @@
               <p class="u-serif-sm u-mb-0">Webdienstleistung</p>
             </section>
             <span class="c-show-skills__sep"></span>
-            <section class="c-show-skills__desc u-text-left">
+            <section class="c-show-skills__desc u-txt-left">
               <p class="u-mw-small u-mb-0 u-centered--b">Als Frontendbereich einer Website oder App wird zusammenfassend alles kategorisiert, was der Besucher bei normaler Benutzung sieh
               <br><span class="u-txt-grey-light">Hier setzen wir unser ganzes Fachwissen ein, um schlanken und responsiven Code zu entwickeln, der auf einer breiten Anzahl an Geräten skillsatibel ist und flink lädt sowie die konzipierte Gestaltung bestmöglich widerspiegelt und eine tolle Benutzererfahrung garantiert</span>
               <br><span class="u-txt-grey-lightest">Wir arbeiten mit folgenden Technologien: HTML5, CSS3, jQuery &amp; SASS</span></p>
@@ -184,7 +184,7 @@
       <!-- Begin Impressionen -->
       <div id="impressionen" class="o-wrapper u-bg-vanilla">
 
-        <article class="o-wrapper__module u-text-center">
+        <article class="o-wrapper__module u-txt-center">
           <h2>Impressionen</h2>
 
           <!-- Impressionen Bullet -->
@@ -199,9 +199,9 @@
           </ul>
 
           <!-- Cards Wrapper -->
-          <section class="o-flex-center--center has-wrap u-centered">
+          <section class="o-flex-center--center has-wrap u-centered u-mb-vr-05">
 
-            <article class="o-card c-card-proj u-text-left js-card">
+            <article class="o-card c-card-proj u-txt-left js-card">
               <div class="c-card-proj__left">
                 <p class="u-category ux-design u-txt-green u-mb-vr-025">User experience design</p>
                 <h4>Tandem Network</h4>
@@ -219,7 +219,7 @@
               <div class="c-card-proj__right tandem"></div>
             </article>
 
-            <article class="o-card c-card-proj u-text-left js-card">
+            <article class="o-card c-card-proj u-txt-left js-card">
               <div class="c-card-proj__left">
                 <p class="u-category ux-design u-txt-green u-mb-vr-025">User experience design</p>
                 <h4>Tandem Network</h4>
@@ -237,7 +237,7 @@
               <div class="c-card-proj__right tandem"></div>
             </article>
 
-            <article class="o-card c-card-proj u-text-left js-card">
+            <article class="o-card c-card-proj u-txt-left js-card">
               <div class="c-card-proj__left">
                 <p class="u-category ux-design u-txt-green u-mb-vr-025">User experience design</p>
                 <h4>Tandem Network</h4>
@@ -255,7 +255,7 @@
               <div class="c-card-proj__right tandem"></div>
             </article>
 
-            <article class="o-card c-card-proj u-text-left js-card">
+            <article class="o-card c-card-proj u-txt-left js-card">
               <div class="c-card-proj__left">
                 <p class="u-category ux-design u-txt-green u-mb-vr-025">User experience design</p>
                 <h4>Tandem Network</h4>
@@ -273,6 +273,16 @@
               <div class="c-card-proj__right tandem"></div>
             </article>
           </section>
+
+          <section class="o-flex-center--center has-column">
+            <h3 class="u-mb-vr-025"><span class="u-txt-black">6</span> / 22</h3>
+            <div class="o-flex-center--center">
+              <svg class="i-cloud u-mr-vr-05">
+                <use xlink:href="#cloud"></use>
+              </svg>
+              <p class="u-txt-black u-uppercase u-mb-0">Mehr laden</p>
+            </div>
+          </section>
         </article>
       </div>
       <!-- End Impressionen -->
@@ -280,7 +290,7 @@
       <!-- Begin Team -->
       <div id="team" class="o-wrapper">
 
-        <article class="o-wrapper__module u-text-center">
+        <article class="o-wrapper__module u-txt-center">
           <h2>Team</h2>
 
           <h3 class="u-mb-vr-0125">Enthusiastisch, Flexibel, Zeitgemä&szlig;</h3>
@@ -335,7 +345,7 @@
 
       <!-- Begin Kontakt -->
       <div id="contact" class="o-wrapper">
-        <article class="o-wrapper__module u-text-center">
+        <article class="o-wrapper__module u-txt-center">
           <h2>Kontakt</h2>
 
           <h3 class="u-mb-vr-0125">Haben Sie etwas geplant oder</h3>
@@ -356,27 +366,19 @@
             </article>
 
             <article class="c-contact__item">
-              <svg class="i-email">
-                <use xlink:href="#letter"></use>
+              <svg class="i-form">
+                <use xlink:href="#form"></use>
               </svg>
-              <h3 class="u-txt-black u-mb-vr-025">E-Mail</h3>
-              <p class="u-serif-sm">
-                Für Menschen
-                <br>
-                &amp; Spambots
-              </p>
+              <h3 class="u-txt-black u-mb-vr-025">Formular</h3>
+              <p class="u-serif-sm">Schreiben Sie uns!</p>
             </article>
 
             <article class="c-contact__item">
-              <svg class="i-email">
-                <use xlink:href="#letter"></use>
+              <svg class="i-phone">
+                <use xlink:href="#phone"></use>
               </svg>
-              <h3 class="u-txt-black u-mb-vr-025">E-Mail</h3>
-              <p class="u-serif-sm">
-                Für Menschen
-                <br>
-                &amp; Spambots
-              </p>
+              <h3 class="u-txt-black u-mb-vr-025">Telefon</h3>
+              <p class="u-serif-sm">&amp; WhatsApp</p>
             </article>
           </section>
 
@@ -385,7 +387,7 @@
           <section class="o-flex-center--center has-wrap o-ref u-centered">
 
             <a class="o-flex-center--center o-ref__item" href="http://instagram.com" target="_blank">
-              <svg class="i-instagram">
+              <svg class="i-instagram u-mr-vr-05">
                 <use xlink:href="#instagram"></use>
               </svg>
               <p class="u-serif-sm u-mb-0">Besuchen Sie uns auf Instagram</p>
@@ -394,10 +396,10 @@
             <span class="c-dot"><svg class="i-dot--small"><use xlink:href="#dot"></use></svg></span>
 
             <a class="o-flex-center--center o-ref__item" href="http://instagram.com" target="_blank">
-              <svg class="i-instagram">
-                <use xlink:href="#instagram"></use>
+              <p class="u-serif-sm u-mr-vr-05 u-mb-0">Entdecken Sie uns auf Dribbble</p>
+              <svg class="i-dribbble">
+                <use xlink:href="#dribbble"></use>
               </svg>
-              <p class="u-serif-sm u-mb-0">Besuchen Sie uns auf Instagram</p>
             </a>
           </section>
         </article>
@@ -405,7 +407,7 @@
       <!-- End Kontakt -->
 
       <!-- Begin Facts -->
-      <div id="facts" class="o-wrapper u-text-center u-bg-dark">
+      <div id="facts" class="o-wrapper u-txt-center u-bg-dark">
 
         <article class="o-wrapper__module c-facts">
 
@@ -436,19 +438,19 @@
           <section class="o-flex-center--center has-wrap o-ref u-centered u-mb-vr-1">
 
             <a class="o-flex-center--center o-ref__item" href="http://instagram.com" target="_blank">
-              <svg class="i-instagram">
-                <use xlink:href="#instagram"></use>
+              <svg class="i-bulb u-mr-vr-05">
+                <use xlink:href="#bulb"></use>
               </svg>
-              <p class="u-serif-sm u-mb-0">Besuchen Sie uns auf Instagram</p>
+              <p class="u-serif-sm u-mb-0">Was uns bewegt &amp; interessiert</p>
             </a>
 
             <span class="c-dot"><svg class="i-dot--small"><use xlink:href="#dot"></use></svg></span>
 
             <a class="o-flex-center--center o-ref__item" href="http://instagram.com" target="_blank">
-              <svg class="i-instagram">
-                <use xlink:href="#instagram"></use>
+              <p class="u-serif-sm u-mr-vr-05 u-mb-0">Entdecken Sie mehr in unserem Blog</p>
+              <svg class="i-pen">
+                <use xlink:href="#pen"></use>
               </svg>
-              <p class="u-serif-sm u-mb-0">Besuchen Sie uns auf Instagram</p>
             </a>
           </section>
 
@@ -567,10 +569,12 @@
 
           <section class="row e-footer__item u-centered">
             <div class="col-xs-5 u-serif-sm">2016 Magellan GmbH</div>
-            <div class="col-xs-2 u-text-center">
-              <svg class="i-github">
-                <use xlink:href="#github"></use>
-              </svg>
+            <div class="col-xs-2 u-txt-center">
+              <a href="http://github.com">
+                <svg class="i-github">
+                  <use xlink:href="#github"></use>
+                </svg>
+              </a>
             </div>
             <div class="col-xs-5">
               <ul class="o-flex-end--center o-bullet u-mb-0">
