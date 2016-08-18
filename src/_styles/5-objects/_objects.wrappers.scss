@@ -11,7 +11,7 @@
   @include mappy-bp(medium) {
 		padding: 0 vr(2);
 	}
-	@include mappy-bp(large) {
+	@include mappy-bp(wide) {
 		padding: 0 vr(3);
 	}
 	@include mappy-bp(wide) {
@@ -22,13 +22,13 @@
 	.o-wrapper__module {
 		max-width: 80rem;
 		margin: 0 auto;
-		padding: vr(2) 0;
-		
+		padding: vr(3) 0;
+
 		@include mappy-bp(medium) {
-			padding: vr(2) 0;
+			padding: vr(4) 0;
 		}
-		@include mappy-bp(large) {
-			padding: vr(3) 0;
+		@include mappy-bp(wide) {
+			padding: vr(5) 0;
 		}
 	}
 

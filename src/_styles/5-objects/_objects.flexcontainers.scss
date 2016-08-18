@@ -44,13 +44,6 @@
 	&.has-wrap {
 		flex-flow: row wrap;
 	}
-}
-
-.o-flex-justify--center,
-.o-flex-justify--start,
-.o-flex-center--center,
-.o-flex-center--start,
-.o-flex-end--center {
 
   &.has-column {
     flex-flow: column nowrap;

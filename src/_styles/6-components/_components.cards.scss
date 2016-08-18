@@ -8,12 +8,13 @@
   justify-content: flex-start;
   max-width: 30rem;
   margin-bottom: 2rem;
+  box-shadow: 0px 0px 25px 1px rgba(0,0,0,0.18);
 
   &:last-child {
     // margin: 0;
   }
 
-  @include mappy-bp(1104px) { // unique tweakpoint
+  @include mappy-bp(1104px) { // tweakpoint
     // margin-right: 2rem;
 
     &:nth-child(2n) {
@@ -61,9 +62,14 @@
   padding: vr(1.25);
   backface-visibility: hidden;
 
-  @include mappy-bp(500px) {
-    margin-left: vr(2);
-    margin-right: vr(2);
+  @include mappy-bp(880px) { // tweakpoint
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  @include mappy-bp(1300px) { // tweakpoint
+    margin-left: vr(2.75);
+    margin-right: vr(2.75);
   }
 }
 
@@ -81,6 +87,7 @@
 
 .c-card-blog {
   margin-bottom: 2rem;
+  box-shadow: 0px 0px 25px 1px rgba(0,0,0,0.18);
 }
 
   div[class^=c-card-blog__img] {

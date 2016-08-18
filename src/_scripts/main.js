@@ -31,23 +31,27 @@ console.log('This is a test');
 $(document).ready(function() {
 	let minheight;
 
-	if (window.innerWidth >= 900) {
-		minheight = (window.innerHeight * 2/3);
+	if (window.innerWidth >= 1100) {
+		minheight = (window.innerHeight * 13/14);
+	} else if (window.innerWidth >= 700) {
+		minheight = (window.innerHeight * 3/4);
 	} else {
-		minheight = (window.innerHeight * 1/2);
-	}
+    minheight = (window.innerHeight * 2/5);
+  }
 	$('.js-min-height').css('min-height',minheight);
 });
 
 $(window).resize(function() {
 	let minheight;
 
-	if (window.innerWidth >= 900) {
-		minheight = (window.innerHeight * 2/3);
-	} else {
-		minheight = (window.innerHeight * 1/2);
-	}
-	$('.js-min-height').css('min-height',minheight);
+  if (window.innerWidth >= 1100) {
+    minheight = (window.innerHeight * 13/14);
+  } else if (window.innerWidth >= 700) {
+    minheight = (window.innerHeight * 2/3);
+  } else {
+    minheight = (window.innerHeight * 2/5);
+  }
+  $('.js-min-height').css('min-height',minheight);
 });
 
 
@@ -160,7 +164,6 @@ $(window).scroll(function (event) {
 
     // TweenMax.staggerTo($skillsOverview, 1,  {x: '0', autoAlpha: 1}, 0.25);
 
-    console.log('animating line');
     lineAnimation(backendMiddle);
     lineAnimation(frontendStand);
     lineAnimation(perf1);
@@ -326,27 +329,27 @@ $(document).ready(function() {
 // Team Module
 // ==========================================================================
 
-let moduleTeamOffset = $('#team').offset().top + 50;
-let teamScroll = false;
-CSSPlugin.defaultTransformPerspective = 1000;
+// let moduleTeamOffset = $('#team').offset().top + 50;
+// let teamScroll = false;
+// CSSPlugin.defaultTransformPerspective = 1000;
 
-// Set the backface
-TweenMax.set($(".c-card-prof"), {rotationY:-180, autoAlpha: 0});
+// // Set the backface
+// TweenMax.set($(".c-card-prof"), {rotationY:-180, autoAlpha: 0});
 
-// Animate when user scrolls to a certain point
-$(window).scroll(function (event) {
-	let scroll = $(window).scrollTop();
-	if (scroll > moduleTeamOffset && !teamScroll) {
-		let frontCards = $('.c-card-prof');
-    // backCard = $(this).children(".cardBack"),
-    let profileCardTl = new TimelineMax();
+// // Animate when user scrolls to a certain point
+// $(window).scroll(function (event) {
+// 	let scroll = $(window).scrollTop();
+// 	if (scroll > moduleTeamOffset && !teamScroll) {
+// 		let frontCards = $('.c-card-prof');
+//     // backCard = $(this).children(".cardBack"),
+//     let profileCardTl = new TimelineMax();
 
-		profileCardTl
-			.staggerTo(frontCards, 2, {rotationY:0, autoAlpha: 1, ease: Power3.easeInOut}, 0.5);
+// 		profileCardTl
+// 			.staggerTo(frontCards, 2, {rotationY:0, autoAlpha: 1, ease: Power3.easeInOut}, 0.5);
 
-		teamScroll = true;
-	}
-});
+// 		teamScroll = true;
+// 	}
+// });
 
 
 // ==========================================================================

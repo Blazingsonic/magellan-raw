@@ -7,7 +7,7 @@
 .o-bullet--impr {
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: vr(2.5);
+	margin-bottom: vr(4);
 }
 
 .o-bullet--skills {
@@ -20,11 +20,11 @@
 	.o-bullet__item {
 		letter-spacing: 0.3rem; // sollte das beibehalten werden?
 		cursor: pointer;
-		
+
 		&.is-active {
 			color: $black;
 		}
-		
+
 		&:last-child {
 			margin-right: 0;
 		}

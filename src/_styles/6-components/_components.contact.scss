@@ -9,8 +9,8 @@
 
   .c-contact__item {
     width: 100%;
-    
-    @include mappy-bp(595px) {
+
+    @include mappy-bp(595px) { // tweakpoint
       width: initial;
     }
   }

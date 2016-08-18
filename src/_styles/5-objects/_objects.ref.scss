@@ -10,7 +10,7 @@
     width: 100%;
     margin-bottom: vr(0.75);
 
-    @include mappy-bp(835px) {
+    @include mappy-bp(835px) { // tweakpoint
       width: initial;
       margin-bottom: 0;
     }

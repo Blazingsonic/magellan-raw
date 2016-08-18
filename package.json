@@ -86,7 +86,8 @@
       "images": "_images",
       "styles": "_styles",
       "scripts": "_scripts",
-      "data": "_data"
+      "data": "_data",
+      "fonts": "_fonts"
     },
     "entries": {
       "js": "main**.js",

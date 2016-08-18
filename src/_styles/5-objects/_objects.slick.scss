@@ -25,7 +25,7 @@
     position: absolute;
     width: 80%;
     left: 50%;
-    bottom: 20%;
+    bottom: 8%;
     transform: translate(-50%, 0);
     z-index: 100;
 
@@ -49,4 +49,11 @@
 
 .slick-dotted.slick-slider {
   margin: 0;
+}
+.slick-dots {
+  bottom: 22%;
+
+  li {
+    width: 10px;
+  }
 }

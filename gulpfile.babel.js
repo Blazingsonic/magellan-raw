@@ -50,6 +50,7 @@ gulp.task('build', [
   'copy',
   'svgstore',
   'imagemin',
+  'fonts',
   'nunjucks',
   'sass',
   'browserify'
@@ -59,6 +60,7 @@ gulp.task('build', [
 gulp.task('serve', [
   'svgstore--dev',
   'imagemin',
+  'fonts',
   'copy',
   'nunjucks',
   'sass',

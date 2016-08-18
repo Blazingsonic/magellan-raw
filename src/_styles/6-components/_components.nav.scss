@@ -7,19 +7,16 @@
 	align-items: center;
 	position: relative;
 	z-index: 99;
-	font-family: 'Playfair Display', Helvetica, Arial, serif;
-	letter-spacing: 0.4rem;
-	color: $white;
 }
 
 	.c-logo__image {
-		width: 3.55rem;
+		width: 4rem;
 		margin-right: 0.4rem;
 		margin-bottom: vr(1/4);
 
-		// @include mappy-bp(medium) {
-		// 	width: 3.5rem;
-		// }
+		@include mappy-bp(medium) {
+			width: 5.5rem;
+		}
 
 		// @include mappy-bp(wide) {
 		// 	width: 4.5rem;
@@ -28,22 +25,22 @@
 
 .c-main-nav {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-  margin-top: vr(1/2);
+  margin-top: vr(1.25);
   padding: 0;
   position: absolute;
   transform: translateX(-50%);
   left: 50%;
 
-  @include mappy-bp(0 1220px) {
+  @include mappy-bp(0 wide) {
     display: none;
   }
 }
 
 	.c-main-nav__item {
-    	@include typi($sans-sm-map);
+    	font-size: 0.78rem; // unique font-size
     	letter-spacing: 0.4rem;
       margin-bottom: 0;
-      margin-right: 2.5rem;
+      margin-right: 2.75rem;
 
         &:last-child {
         	margin-right: 0;
@@ -51,7 +48,7 @@
     }
 
 .c-nav-right {
-    margin-top: vr(1/2);
+    margin-top: 1.9rem;
 }
 
 	.c-nav-right__menu {
